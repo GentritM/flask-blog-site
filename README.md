@@ -21,7 +21,7 @@
     $ $script.DownloadString("https://chocolatey.org/install.ps1")
     $ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
     $ choco upgrade chocolatey
-    $ choco install -y nano
+    $ choco install -y vim
     $ choco install -y python3
     $ python -V "now you should see the latest version of python"
     $ python -m pip install --upgrade pip
