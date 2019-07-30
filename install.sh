@@ -16,7 +16,7 @@ else
        # echo "You said yes"
        echo `wget http://python.org/ftp/python/3.7.4/Python-3.7.4.tar.xz`
        echo `tar xf Python-3.7.4.tar.xz`
-       cd Python-2.7.3
+       cd Python-3.7.4
        echo `./configure --prefix=/usr/local`
        echo `make && make altinstall`
        echo `rm Python-3.7.4.tar.xz`
