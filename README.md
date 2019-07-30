@@ -1,5 +1,15 @@
 # flask-blog-site
-### set up the site on Windows 
+### Setup the app on Linux 
+    open terminal and type the following commands 
+    $ git clone https://github.com/GentritM/flask-blog-site.git
+    $ cd flask-blog-site 
+    $ sudo install.sh 
+    $ chmod 755 run.sh
+    $ ./run.sh
+
+
+
+### set up the app on Windows 
     open powershell with admin access and write the following commands
     $ clone the project or download it as zip and extract it
     $ cd ~
@@ -27,3 +37,4 @@
     $ flask db upgrade
     $ python app.py or flask run
   
+
