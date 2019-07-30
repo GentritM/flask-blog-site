@@ -9,7 +9,7 @@
 
 
 
-### set up the site on Windows 
+### set up the app on Windows 
     open powershell with admin access and write the following commands
     $ clone the project or download it as zip and extract it
     $ cd ~
