@@ -27,3 +27,6 @@
     $ flask db upgrade
     $ python app.py or flask run
   
+### Setup the app on Linux 
+    open terminal and type the following commands 
+    $ git clone 
