@@ -4,6 +4,21 @@
     $ git clone https://github.com/GentritM/flask-blog-site.git
     $ cd flask-blog-site 
     $ sudo install.sh 
+    -- installing pip
+    -on Arch and ArchBased distros
+    $ sudo pacman -S python-pip
+    -on Debian and Debian based
+    $ sudo apt-get install python3-pip
+    -on RedHat or RedHat based
+    $ sudo yum install python37-setuptools
+    $ sudo easy_install-3.7 pip
+    installing virtualenv if python3 is default on your system, run:
+    $ pip install virtualenv
+    installing virtualenv if python2 is default on your system, run:
+    $ pip3 install virtualenv
+    $ virtualenv venv
+    $ source ./venv/bin/activate/
+    $ pip install -r requirements.txt
     $ chmod 755 run.sh
     $ ./run.sh
 
@@ -21,7 +36,7 @@
     $ $script.DownloadString("https://chocolatey.org/install.ps1")
     $ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
     $ choco upgrade chocolatey
-    $ choco install -y nano
+    $ choco install -y vim
     $ choco install -y python3
     $ python -V "now you should see the latest version of python"
     $ python -m pip install --upgrade pip
