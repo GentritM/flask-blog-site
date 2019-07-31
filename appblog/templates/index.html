@@ -3,6 +3,9 @@
   <div class="jumbotron">
     <h1> Programming Language war blog site</h1>
   </div>
+    {% if current_user.is_authenticated %}
+
+
     <div class="container">
         {% for post in blog_posts.items %}
             <div class="card">
@@ -34,5 +37,6 @@
 
 </nav>
 
+    {% endif %}
 {% endblock %}
 

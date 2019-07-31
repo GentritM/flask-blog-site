@@ -28,6 +28,7 @@ def create_post():
 
 
 @blog_posts.route('/<int:blog_post_id>')
+
 def blog_post(blog_post_id):
 
     blog_post = BlogPost.query.get_or_404(blog_post_id)
