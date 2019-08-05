@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 from flask import url_for, current_app
-
+"""This python script handels and manipulates the picture that the user uploads and scales it to be 200x200 pixels"""
 def add_profile_pic(pic_upload,username):
 
     filename = pic_upload.filename
